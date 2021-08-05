@@ -40,6 +40,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5226830677441777911}
   - component: {fileID: 9091483871374081071}
+  - component: {fileID: 3296963150242793976}
   m_Layer: 0
   m_Name: Tile Base
   m_TagString: Untagged
@@ -75,6 +76,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bf73a80ff7135ce42b24dd092982b4f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isPlaceable: 1
+--- !u!64 &3296963150242793976
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5226830677441777910}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
 --- !u!1 &5226830677569351337
 GameObject:
   m_ObjectHideFlags: 0

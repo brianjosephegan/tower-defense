@@ -7,9 +7,13 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3296963150242793976, guid: 4a33766458b08714c8e30fc84371fdaf, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: -4855243574250553854, guid: 01b9f6f9b4200bb4f9d0ab001f43c38d, type: 3}
     - target: {fileID: 5226830677441777910, guid: 4a33766458b08714c8e30fc84371fdaf, type: 3}
       propertyPath: m_Name
-      value: Tile 1
+      value: Tile
       objectReference: {fileID: 0}
     - target: {fileID: 5226830677441777911, guid: 4a33766458b08714c8e30fc84371fdaf, type: 3}
       propertyPath: m_RootOrder
