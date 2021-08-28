@@ -15,11 +15,11 @@ D:/Users/brian/source/repos/unity/tower-defense
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49958
+60385
 Successfully changed project path to: D:/Users/brian/source/repos/unity/tower-defense
 D:/Users/brian/source/repos/unity/tower-defense
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 40.53 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 34.57 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.11f1 (99c7afb366b3)
 [Subsystems] Discovering subsystems at path D:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Resources/UnitySubsystems
@@ -35,719 +35,569 @@ Initialize mono
 Mono path[0] = 'D:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'D:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56140
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56168
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: D:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002008 seconds.
+Registered in 0.001998 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 47.93 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 50.60 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.691 seconds
+- Completed reload, in  2.041 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004380 seconds.
+Registered in 0.005834 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.505 seconds
+- Completed reload, in  1.367 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1403 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 67.5 MB.
-System memory in use after: 67.6 MB.
+System memory in use before: 67.3 MB.
+System memory in use after: 67.3 MB.
 
 Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1837.
-Total: 2.379100 ms (FindLiveObjects: 0.162500 ms CreateObjectMapping: 0.060100 ms MarkObjects: 2.028300 ms  DeleteObjects: 0.127100 ms)
+Total: 2.821900 ms (FindLiveObjects: 0.215800 ms CreateObjectMapping: 0.052900 ms MarkObjects: 2.427600 ms  DeleteObjects: 0.124400 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Asset Packs/VoxelCastle
-  artifactKey: Guid(cefb95726d83e364a8b05b45388fb745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/VoxelCastle using Guid(cefb95726d83e364a8b05b45388fb745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05c81801f601641b738215c232f1548d') in 0.005204 seconds
-  Import took 0.007842 seconds .
+  path: Assets/Tower/Blaster.prefab
+  artifactKey: Guid(35c54f497669d1e459dfc3891dc3850e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tower/Blaster.prefab using Guid(35c54f497669d1e459dfc3891dc3850e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82c55abcf254db567fe19157834f202d') in 0.177659 seconds
+  Import took 0.180649 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.043289 seconds.
-  path: Assets/Asset Packs/VoxelCastle/Models
-  artifactKey: Guid(06cdbb83bf449b949b481f4e3754af14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/VoxelCastle/Models using Guid(06cdbb83bf449b949b481f4e3754af14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '539992ddbdbebaefab03e0cc5cbe4d70') in 0.002635 seconds
-  Import took 0.006218 seconds .
+  Time since last request: 91.214829 seconds.
+  path: Assets/Tower/Blaster.prefab
+  artifactKey: Guid(35c54f497669d1e459dfc3891dc3850e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tower/Blaster.prefab using Guid(35c54f497669d1e459dfc3891dc3850e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccb162ed4c53ec5a8b1b3c0fbdd521c5') in 0.060292 seconds
+  Import took 0.064395 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.002197 seconds.
-  path: Assets/Asset Packs/VoxelCastle/Models
-  artifactKey: Guid(06cdbb83bf449b949b481f4e3754af14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/VoxelCastle/Models using Guid(06cdbb83bf449b949b481f4e3754af14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '539992ddbdbebaefab03e0cc5cbe4d70') in 0.004422 seconds
-  Import took 0.009323 seconds .
+  Time since last request: 5.258067 seconds.
+  path: Assets/Tower/Blaster.prefab
+  artifactKey: Guid(35c54f497669d1e459dfc3891dc3850e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tower/Blaster.prefab using Guid(35c54f497669d1e459dfc3891dc3850e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18885ee2fe0c6e727a217b6f1388b0fc') in 0.019146 seconds
+  Import took 0.022819 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.063324 seconds.
-  path: Assets/Asset Packs/VoxelCastle/Models/Ballisa_Base.obj
-  artifactKey: Guid(af50c4e21f0e9b9419ff00e3c39e7711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/VoxelCastle/Models/Ballisa_Base.obj using Guid(af50c4e21f0e9b9419ff00e3c39e7711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '841229e8773cef048dd0977462e2fde7') in 1.120544 seconds
-  Import took 1.125248 seconds .
+  Time since last request: 8.921734 seconds.
+  path: Assets/Tower/Blaster.prefab
+  artifactKey: Guid(35c54f497669d1e459dfc3891dc3850e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tower/Blaster.prefab using Guid(35c54f497669d1e459dfc3891dc3850e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Particle system meshes will only work with exactly one (1) sub mesh
+
+Particle system meshes will only work with exactly one (1) sub mesh
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/ParticleSystem/ParticleSystemRenderer.cpp line 283]
+
+ -> (artifact id: '36d2e8886ffee2b95b90591fa917c050') in 0.045727 seconds
+  Import took 0.049125 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000499 seconds.
-  path: Assets/Asset Packs/VoxelCastle/Models/Tower_Right.obj
-  artifactKey: Guid(72a69f2d17306c241a28b11da95f8885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/VoxelCastle/Models/Tower_Right.obj using Guid(72a69f2d17306c241a28b11da95f8885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccd4b2d485599affac6c18408ca258f7') in 0.025969 seconds
-  Import took 0.028634 seconds .
+  Time since last request: 2.286519 seconds.
+  path: Assets/Tower/Blaster.prefab
+  artifactKey: Guid(35c54f497669d1e459dfc3891dc3850e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tower/Blaster.prefab using Guid(35c54f497669d1e459dfc3891dc3850e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Particle system meshes will only work with exactly one (1) sub mesh
+
+Particle system meshes will only work with exactly one (1) sub mesh
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/ParticleSystem/ParticleSystemRenderer.cpp line 283]
+
+ -> (artifact id: 'e5c560bdb04cfee1f372d772abe31650') in 0.028219 seconds
+  Import took 0.031582 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000350 seconds.
-  path: Assets/Asset Packs/VoxelCastle/Models/Tree_Large.obj
-  artifactKey: Guid(1c653cfa1a46c7248b5aa77ea7624db8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/VoxelCastle/Models/Tree_Large.obj using Guid(1c653cfa1a46c7248b5aa77ea7624db8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b39b753d60681320f934aa0e8eff6b91') in 0.025611 seconds
-  Import took 0.028852 seconds .
+  Time since last request: 0.635100 seconds.
+  path: Assets/Tower/Blaster.prefab
+  artifactKey: Guid(35c54f497669d1e459dfc3891dc3850e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tower/Blaster.prefab using Guid(35c54f497669d1e459dfc3891dc3850e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Particle system meshes will only work with exactly one (1) sub mesh
+
+Particle system meshes will only work with exactly one (1) sub mesh
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/ParticleSystem/ParticleSystemRenderer.cpp line 283]
+
+ -> (artifact id: '26a08051b2a0cfd81b4dd495efc85453') in 0.019756 seconds
+  Import took 0.024158 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000349 seconds.
-  path: Assets/Asset Packs/VoxelCastle/Models/Shore_1.png
-  artifactKey: Guid(ffac8a3acbcff404e99171d5439366c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/VoxelCastle/Models/Shore_1.png using Guid(ffac8a3acbcff404e99171d5439366c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2646317f0ea731e3b4e9d948760bf2a3') in 0.082225 seconds
-  Import took 0.086508 seconds .
+  Time since last request: 9.369604 seconds.
+  path: Assets/Tower/Blaster.prefab
+  artifactKey: Guid(35c54f497669d1e459dfc3891dc3850e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tower/Blaster.prefab using Guid(35c54f497669d1e459dfc3891dc3850e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Particle system meshes will only work with exactly one (1) sub mesh
+
+Particle system meshes will only work with exactly one (1) sub mesh
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/ParticleSystem/ParticleSystemRenderer.cpp line 283]
+
+ -> (artifact id: '90fe1130c9eec80924576def8a990dcf') in 0.030940 seconds
+  Import took 0.034175 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000367 seconds.
-  path: Assets/Asset Packs/VoxelCastle/Models/Tower_Straight.png
-  artifactKey: Guid(0488743b20db5ba4590965ad3056d5b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/VoxelCastle/Models/Tower_Straight.png using Guid(0488743b20db5ba4590965ad3056d5b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c5a200cd788dd0a6d96199a4a63d4f2') in 0.007573 seconds
-  Import took 0.011816 seconds .
+  Time since last request: 0.619207 seconds.
+  path: Assets/Tower/Blaster.prefab
+  artifactKey: Guid(35c54f497669d1e459dfc3891dc3850e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tower/Blaster.prefab using Guid(35c54f497669d1e459dfc3891dc3850e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Particle system meshes will only work with exactly one (1) sub mesh
+
+Particle system meshes will only work with exactly one (1) sub mesh
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/ParticleSystem/ParticleSystemRenderer.cpp line 283]
+
+ -> (artifact id: '1c87cdf520d0403b244405e905221161') in 0.026035 seconds
+  Import took 0.029830 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000379 seconds.
-  path: Assets/Asset Packs/VoxelCastle/Models/Tower_Standing.obj
-  artifactKey: Guid(b31c61d5adaf91b4499ddac0cc71ff72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/VoxelCastle/Models/Tower_Standing.obj using Guid(b31c61d5adaf91b4499ddac0cc71ff72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5311ebc7e73edba1baa3f915d3a84c37') in 0.049960 seconds
-  Import took 0.054619 seconds .
+  Time since last request: 11.973338 seconds.
+  path: Assets/Tower/Blaster.prefab
+  artifactKey: Guid(35c54f497669d1e459dfc3891dc3850e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tower/Blaster.prefab using Guid(35c54f497669d1e459dfc3891dc3850e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Particle system meshes will only work with exactly one (1) sub mesh
+
+Particle system meshes will only work with exactly one (1) sub mesh
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/ParticleSystem/ParticleSystemRenderer.cpp line 283]
+
+ -> (artifact id: 'afb1869f5f4f0c0078f12b8d74cbaac0') in 0.021962 seconds
+  Import took 0.035480 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000385 seconds.
-  path: Assets/Asset Packs/VoxelCastle/Models/Tower_Straight.obj
-  artifactKey: Guid(e7a14cf0c8f8c7f48b1a463cab3cfba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/VoxelCastle/Models/Tower_Straight.obj using Guid(e7a14cf0c8f8c7f48b1a463cab3cfba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08b9c1e2899e73ad9a82c16947d108d4') in 0.045952 seconds
-  Import took 0.050228 seconds .
+  Time since last request: 110.351900 seconds.
+  path: Assets/Asset Packs/Kenny Blaster Kit
+  artifactKey: Guid(20fe93be15ad7c04885390a83f3d25fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Kenny Blaster Kit using Guid(20fe93be15ad7c04885390a83f3d25fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16dcd12d111586d9f806a36b6bceeaaa') in 0.003698 seconds
+  Import took 0.029725 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000385 seconds.
-  path: Assets/Asset Packs/VoxelCastle/Models/Tree_Group.obj
-  artifactKey: Guid(15e2400a7e78e4c429ba356f5934ca5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/VoxelCastle/Models/Tree_Group.obj using Guid(15e2400a7e78e4c429ba356f5934ca5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59c7a835f3969f582bb09434ef16b018') in 0.043956 seconds
-  Import took 0.047234 seconds .
+  Time since last request: 29.080119 seconds.
+  path: Assets/Asset Packs/Kenny Blaster Kit/blasterN.fbx
+  artifactKey: Guid(f390458fb52af4944a6b792c0245779f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Kenny Blaster Kit/blasterN.fbx using Guid(f390458fb52af4944a6b792c0245779f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31f9e87fe1848529a943e7d4468fe6c7') in 0.268634 seconds
+  Import took 0.274748 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000375 seconds.
-  path: Assets/Asset Packs/VoxelCastle/Models/Gate_1.obj
-  artifactKey: Guid(ed0d4b88051579a47a065eda53cf9480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/VoxelCastle/Models/Gate_1.obj using Guid(ed0d4b88051579a47a065eda53cf9480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b026c00dcdfdf437a5d719591d501b0') in 0.047740 seconds
-  Import took 0.051486 seconds .
+  Time since last request: 0.000215 seconds.
+  path: Assets/Asset Packs/Kenny Blaster Kit/blasterN.fbx
+  artifactKey: Guid(f390458fb52af4944a6b792c0245779f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Kenny Blaster Kit/blasterN.fbx using Guid(f390458fb52af4944a6b792c0245779f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31f9e87fe1848529a943e7d4468fe6c7') in 0.085342 seconds
+  Import took 0.090458 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000368 seconds.
-  path: Assets/Asset Packs/VoxelCastle/Models/Ballisa_Base.png
-  artifactKey: Guid(f7d44a55e98043e4d8cea381547ff757) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/VoxelCastle/Models/Ballisa_Base.png using Guid(f7d44a55e98043e4d8cea381547ff757) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2796d015d1d64f57d2d7bba2021e5cc1') in 0.010075 seconds
-  Import took 0.013852 seconds .
+  Time since last request: 0.399736 seconds.
+  path: Assets/Asset Packs/Kenny Blaster Kit/blasterM.fbx
+  artifactKey: Guid(ab043ce423c5b1c47b81eb9cb11a3456) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Kenny Blaster Kit/blasterM.fbx using Guid(ab043ce423c5b1c47b81eb9cb11a3456) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31162224827fe76e6cc8b134803ed6d1') in 0.065123 seconds
+  Import took 0.069160 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000495 seconds.
-  path: Assets/Asset Packs/VoxelCastle/Models/Ram.obj
-  artifactKey: Guid(0eaf0955d0035664c87a3d4177a41887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/VoxelCastle/Models/Ram.obj using Guid(0eaf0955d0035664c87a3d4177a41887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7287179997f661f88849e2eab0cae816') in 0.033744 seconds
-  Import took 0.037683 seconds .
+  Time since last request: 7.263422 seconds.
+  path: Assets/Asset Packs/Kenny Blaster Kit/blasterA.fbx
+  artifactKey: Guid(08e1d6ee3af36b940ae48162a54d1571) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Kenny Blaster Kit/blasterA.fbx using Guid(08e1d6ee3af36b940ae48162a54d1571) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4aabd5abc3f52a0b8a843da030e438e4') in 0.052325 seconds
+  Import took 0.057941 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000342 seconds.
-  path: Assets/Asset Packs/VoxelCastle/Models/Tower_Right.png
-  artifactKey: Guid(ca298980c5e8df845b53e7c7f434fb11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/VoxelCastle/Models/Tower_Right.png using Guid(ca298980c5e8df845b53e7c7f434fb11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bad34028017b794a3e6f5c9a778c318') in 0.018746 seconds
-  Import took 0.023798 seconds .
+  Time since last request: 0.000404 seconds.
+  path: Assets/Asset Packs/Kenny Blaster Kit/blasterB.fbx
+  artifactKey: Guid(58a45efc75806d848a3a0d94ec3edf10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Kenny Blaster Kit/blasterB.fbx using Guid(58a45efc75806d848a3a0d94ec3edf10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e369fe216d5707492d4c793d42d1ea6c') in 0.074433 seconds
+  Import took 0.079039 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000317 seconds.
-  path: Assets/Asset Packs/VoxelCastle/Models/Gate_2.obj
-  artifactKey: Guid(a592389a4cc504149996122820b6be3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/VoxelCastle/Models/Gate_2.obj using Guid(a592389a4cc504149996122820b6be3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c830f10a659da79068ebed86685cb88') in 0.038214 seconds
-  Import took 0.041327 seconds .
+  Time since last request: 0.000216 seconds.
+  path: Assets/Asset Packs/Kenny Blaster Kit/blasterL.fbx
+  artifactKey: Guid(03b83ec88573c1c4f8b2d9d0e9bc7de1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Kenny Blaster Kit/blasterL.fbx using Guid(03b83ec88573c1c4f8b2d9d0e9bc7de1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '275b1b6698c6767b82d3d0566bcca066') in 0.062337 seconds
+  Import took 0.065223 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000305 seconds.
-  path: Assets/Asset Packs/VoxelCastle/Models/Grass.obj
-  artifactKey: Guid(5076ba01f21af0c4daff73ab13dba476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/VoxelCastle/Models/Grass.obj using Guid(5076ba01f21af0c4daff73ab13dba476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3d033276ca8fea94a8ffc0567d47f3f') in 0.041983 seconds
-  Import took 0.044797 seconds .
+  Time since last request: 0.000209 seconds.
+  path: Assets/Asset Packs/Kenny Blaster Kit/foamBulletA.fbx
+  artifactKey: Guid(be26ecb36c4719442b6b783f437d28a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Kenny Blaster Kit/foamBulletA.fbx using Guid(be26ecb36c4719442b6b783f437d28a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc886b434d7937af3aeca5c00ce14dcf') in 0.023541 seconds
+  Import took 0.026858 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000324 seconds.
-  path: Assets/Asset Packs/VoxelCastle/Models/Tower_Left.obj
-  artifactKey: Guid(c9744b5c955b75740868d5ebf8b04ae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/VoxelCastle/Models/Tower_Left.obj using Guid(c9744b5c955b75740868d5ebf8b04ae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fad0092e0f2fbfd11f31b50ca25e5bf2') in 0.040942 seconds
-  Import took 0.044469 seconds .
+  Time since last request: 0.000325 seconds.
+  path: Assets/Asset Packs/Kenny Blaster Kit/blasterD.fbx
+  artifactKey: Guid(dd2372ed5b62e56408b37217bf058925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Kenny Blaster Kit/blasterD.fbx using Guid(dd2372ed5b62e56408b37217bf058925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43a224b401a08c5cf3f3b43a2343f7b4') in 0.077812 seconds
+  Import took 0.083090 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000856 seconds.
-  path: Assets/Asset Packs/VoxelCastle/Models/Road_Straight.png
-  artifactKey: Guid(3dd9605d2d4e8ba469fa5ddf06423ab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/VoxelCastle/Models/Road_Straight.png using Guid(3dd9605d2d4e8ba469fa5ddf06423ab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fb1834cb23c6fd57ec6309526b43d70') in 0.008645 seconds
-  Import took 0.012036 seconds .
+  Time since last request: 0.000393 seconds.
+  path: Assets/Asset Packs/Kenny Blaster Kit/blasterJ.fbx
+  artifactKey: Guid(b96e2f142f210b7439d9383b9e68f1a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Kenny Blaster Kit/blasterJ.fbx using Guid(b96e2f142f210b7439d9383b9e68f1a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fc47d144270e719e68737aeae4971d6') in 0.060752 seconds
+  Import took 0.064899 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000318 seconds.
-  path: Assets/Asset Packs/VoxelCastle/Models/Ballisa_Top.png
-  artifactKey: Guid(a1a9a2db362196f41b8441addbcc0c15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/VoxelCastle/Models/Ballisa_Top.png using Guid(a1a9a2db362196f41b8441addbcc0c15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4180daf23d0ebdaeae67c30fe52a0fe4') in 0.012004 seconds
-  Import took 0.014950 seconds .
+  Time since last request: 0.000259 seconds.
+  path: Assets/Asset Packs/Kenny Blaster Kit/targetA.fbx
+  artifactKey: Guid(05e1c5a101d852a49930235d0102e2b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Kenny Blaster Kit/targetA.fbx using Guid(05e1c5a101d852a49930235d0102e2b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9903489a3bf177cffda9f467d2c7252') in 0.042996 seconds
+  Import took 0.050155 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000281 seconds.
-  path: Assets/Asset Packs/VoxelCastle/Models/Ballisa_Top.obj
-  artifactKey: Guid(18cfa8e197c1ff74292ed6ff0cc8b3f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/VoxelCastle/Models/Ballisa_Top.obj using Guid(18cfa8e197c1ff74292ed6ff0cc8b3f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be5fab5c1e98757aac9d0396294a2545') in 0.040168 seconds
-  Import took 0.043680 seconds .
+  Time since last request: 0.000391 seconds.
+  path: Assets/Asset Packs/Kenny Blaster Kit/clipA.fbx
+  artifactKey: Guid(9ddfa4a02710d524e85d3696988ed7cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Kenny Blaster Kit/clipA.fbx using Guid(9ddfa4a02710d524e85d3696988ed7cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3dca9775fb004fe4bbb51e34698af62') in 0.043510 seconds
+  Import took 0.075304 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000321 seconds.
-  path: Assets/Asset Packs/VoxelCastle/Models/Grass.png
-  artifactKey: Guid(23a42ab2a1869644a91490df49967f02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/VoxelCastle/Models/Grass.png using Guid(23a42ab2a1869644a91490df49967f02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9af3d4d31c78095affc89f0c064128b8') in 0.007220 seconds
-  Import took 0.011007 seconds .
+  Time since last request: 0.000298 seconds.
+  path: Assets/Asset Packs/Kenny Blaster Kit/blasterK.fbx
+  artifactKey: Guid(bcae037931c9fe245a3e00ea9696d2fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Kenny Blaster Kit/blasterK.fbx using Guid(bcae037931c9fe245a3e00ea9696d2fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e7545afdd8fbbc1574aeb7768814de6') in 0.055938 seconds
+  Import took 0.062189 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000345 seconds.
-  path: Assets/Asset Packs/VoxelCastle/Models/Gate_2.png
-  artifactKey: Guid(1397c6bbef1f52446a3885dfec58c9c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/VoxelCastle/Models/Gate_2.png using Guid(1397c6bbef1f52446a3885dfec58c9c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '058acaf5b649c98203f0a7fdef48cfea') in 0.010460 seconds
-  Import took 0.014841 seconds .
+  Time since last request: 0.000332 seconds.
+  path: Assets/Asset Packs/Kenny Blaster Kit/blasterI.fbx
+  artifactKey: Guid(002ddaccfe195e149b8f7185cb204249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Kenny Blaster Kit/blasterI.fbx using Guid(002ddaccfe195e149b8f7185cb204249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa82d57bc2fd7876dda92a599947a0cd') in 0.079809 seconds
+  Import took 0.084561 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.001256 seconds.
-  path: Assets/Asset Packs/VoxelCastle/Models/Tower_Left.png
-  artifactKey: Guid(284ee0d3ae39dfa4e8149a93e89fc205) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/VoxelCastle/Models/Tower_Left.png using Guid(284ee0d3ae39dfa4e8149a93e89fc205) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efbf06e30f0eae96d836a13077241553') in 0.007179 seconds
-  Import took 0.010566 seconds .
+  Time since last request: 0.000251 seconds.
+  path: Assets/Asset Packs/Kenny Blaster Kit/blasterG.fbx
+  artifactKey: Guid(d9da29126b85c4b4a8649777cfef59a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Kenny Blaster Kit/blasterG.fbx using Guid(d9da29126b85c4b4a8649777cfef59a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2aa09c56cc300fa006468a87ec335dbf') in 0.056369 seconds
+  Import took 0.059815 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000350 seconds.
-  path: Assets/Asset Packs/VoxelCastle/Models/Shore_2.png
-  artifactKey: Guid(48723dd47be16a44a99dd60f1da28484) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/VoxelCastle/Models/Shore_2.png using Guid(48723dd47be16a44a99dd60f1da28484) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b4afbe152c0be32c270a5929691edaa') in 0.008527 seconds
-  Import took 0.011673 seconds .
+  Time since last request: 0.000607 seconds.
+  path: Assets/Asset Packs/Kenny Blaster Kit/targetB.fbx
+  artifactKey: Guid(842ffd4a516c5b84da3b89a662fec98e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Kenny Blaster Kit/targetB.fbx using Guid(842ffd4a516c5b84da3b89a662fec98e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22bce5428f2ec345d897d703f7624072') in 0.053958 seconds
+  Import took 0.059087 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000335 seconds.
-  path: Assets/Asset Packs/VoxelCastle/Models/Shore_3.png
-  artifactKey: Guid(a7496d0b9261383468e8fed66a40da8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/VoxelCastle/Models/Shore_3.png using Guid(a7496d0b9261383468e8fed66a40da8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '552f244bc5b7e707d825e9a23109e54f') in 0.006580 seconds
-  Import took 0.010768 seconds .
+  Time since last request: 0.000354 seconds.
+  path: Assets/Asset Packs/Kenny Blaster Kit/blasterC.fbx
+  artifactKey: Guid(e92075cc1ec0b4348b697bf2d9e78422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Kenny Blaster Kit/blasterC.fbx using Guid(e92075cc1ec0b4348b697bf2d9e78422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15af9746a6d9cebc8f014d79374a4585') in 0.058445 seconds
+  Import took 0.063073 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000287 seconds.
-  path: Assets/Asset Packs/VoxelCastle/Models/Tree_Group.png
-  artifactKey: Guid(9acac0d27327d6b49b38bd2c330e319e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/VoxelCastle/Models/Tree_Group.png using Guid(9acac0d27327d6b49b38bd2c330e319e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c3c7be8111de576215648e71ff061af') in 0.007029 seconds
-  Import took 0.010545 seconds .
+  Time since last request: 0.000257 seconds.
+  path: Assets/Asset Packs/Kenny Blaster Kit/blasterE.fbx
+  artifactKey: Guid(b95f8e3e6148b1743a3532c42382aca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Kenny Blaster Kit/blasterE.fbx using Guid(b95f8e3e6148b1743a3532c42382aca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a5874eb457de3ff85e2f2800e896bc1') in 0.062297 seconds
+  Import took 0.065511 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000283 seconds.
-  path: Assets/Asset Packs/VoxelCastle/Models/Bolt.png
-  artifactKey: Guid(f168fa85f7662a84abd6633f70987ad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/VoxelCastle/Models/Bolt.png using Guid(f168fa85f7662a84abd6633f70987ad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78870f4ae10ae4069c572f80e10f0fdb') in 0.009780 seconds
-  Import took 0.012775 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000295 seconds.
-  path: Assets/Asset Packs/VoxelCastle/Models/Road_Corner.obj
-  artifactKey: Guid(626410dc07212d749823da2540a223bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/VoxelCastle/Models/Road_Corner.obj using Guid(626410dc07212d749823da2540a223bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49f9246f9ff0527a9b6d32deb30f2d64') in 0.028246 seconds
-  Import took 0.031454 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000271 seconds.
-  path: Assets/Asset Packs/VoxelCastle/Models/Road_Corner.png
-  artifactKey: Guid(58ef2bf03efe75c4aafe68f1b5af1443) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/VoxelCastle/Models/Road_Corner.png using Guid(58ef2bf03efe75c4aafe68f1b5af1443) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcf5f2cf15938c38a41dff39ed7c30b0') in 0.009724 seconds
-  Import took 0.013085 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000346 seconds.
-  path: Assets/Asset Packs/VoxelCastle/Models/Road_Straight.obj
-  artifactKey: Guid(e618ab8e55a3ed942a408f4d1b7f896e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/VoxelCastle/Models/Road_Straight.obj using Guid(e618ab8e55a3ed942a408f4d1b7f896e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd443343634d1248b6eaccbb34af8ea44') in 0.040428 seconds
-  Import took 0.045178 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000590 seconds.
-  path: Assets/Asset Packs/VoxelCastle/Models/Shore_1.obj
-  artifactKey: Guid(188ea90cdfe6c634eb85f7a132fcebeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/VoxelCastle/Models/Shore_1.obj using Guid(188ea90cdfe6c634eb85f7a132fcebeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9ec9d7f2f4cf66df04eb3ad787ad385') in 0.037678 seconds
-  Import took 0.040683 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000322 seconds.
-  path: Assets/Asset Packs/VoxelCastle/Models/Shore_2.obj
-  artifactKey: Guid(cdf72d6b092b7d74cbcba07dd2c5aa58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/VoxelCastle/Models/Shore_2.obj using Guid(cdf72d6b092b7d74cbcba07dd2c5aa58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67b568b37915bf35d5260e6e8ccb8661') in 0.037028 seconds
-  Import took 0.040014 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000265 seconds.
-  path: Assets/Asset Packs/VoxelCastle/Models/Shore_3.obj
-  artifactKey: Guid(fa1397209d9adee4db5f8a2bba8327f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/VoxelCastle/Models/Shore_3.obj using Guid(fa1397209d9adee4db5f8a2bba8327f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1215d89bdaf4a80f6eb2f0b17e56edc4') in 0.037280 seconds
-  Import took 0.041454 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000338 seconds.
-  path: Assets/Asset Packs/VoxelCastle/Models/Gate_1.png
-  artifactKey: Guid(0a454c2c084e06e4ba072926a9128554) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/VoxelCastle/Models/Gate_1.png using Guid(0a454c2c084e06e4ba072926a9128554) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a329c31e6e7490a6d3badd023cad1787') in 0.006357 seconds
-  Import took 0.010081 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000331 seconds.
-  path: Assets/Asset Packs/VoxelCastle/Models/Tower_Standing.png
-  artifactKey: Guid(3635acef53183154283781d6989b3681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/VoxelCastle/Models/Tower_Standing.png using Guid(3635acef53183154283781d6989b3681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2b228fbbf4f5a9e48c9ce5cbc7e2c92') in 0.015908 seconds
-  Import took 0.019387 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000313 seconds.
-  path: Assets/Asset Packs/VoxelCastle/Models/Ram.png
-  artifactKey: Guid(f89231e1285b34f41a1e68d64ba7079b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/VoxelCastle/Models/Ram.png using Guid(f89231e1285b34f41a1e68d64ba7079b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6110d25c1ce153ab127dd26c23f7365c') in 0.006232 seconds
-  Import took 0.008835 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000276 seconds.
-  path: Assets/Asset Packs/VoxelCastle/Models/Bolt.obj
-  artifactKey: Guid(77a5e84b782c81648b95ce756f4622a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/VoxelCastle/Models/Bolt.obj using Guid(77a5e84b782c81648b95ce756f4622a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcb0e3ae0f2a79a2d248526e9dbab7aa') in 0.038413 seconds
-  Import took 0.041238 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.796898 seconds.
-  path: Assets/Asset Packs/VoxelCastle/Models/Tree_Large.png
-  artifactKey: Guid(1c85421df3697a743925dbaff78a7643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/VoxelCastle/Models/Tree_Large.png using Guid(1c85421df3697a743925dbaff78a7643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d29ed6dd155f9c070834bbab198286a') in 0.008487 seconds
-  Import took 0.011981 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000296 seconds.
-  path: Assets/Asset Packs/VoxelCastle/Models/Wall_In.png
-  artifactKey: Guid(f713d06f23fb03f409a902a4f8fed1b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/VoxelCastle/Models/Wall_In.png using Guid(f713d06f23fb03f409a902a4f8fed1b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '571745d18959b0d2d20e16619199e5e2') in 0.006160 seconds
-  Import took 0.008688 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000409 seconds.
-  path: Assets/Asset Packs/VoxelCastle/Models/Wall_Straight.png
-  artifactKey: Guid(dda4330d16aed4e468cfaf7516d2371a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/VoxelCastle/Models/Wall_Straight.png using Guid(dda4330d16aed4e468cfaf7516d2371a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7ab645ba899c12924689e5641e3dac9') in 0.006255 seconds
-  Import took 0.008872 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000379 seconds.
-  path: Assets/Asset Packs/VoxelCastle/Models/Water_Open.obj
-  artifactKey: Guid(a847eae99d42cdf49b01d8ca9f52e595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/VoxelCastle/Models/Water_Open.obj using Guid(a847eae99d42cdf49b01d8ca9f52e595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1adc313901f51beb23a06e605697b6a0') in 0.027901 seconds
-  Import took 0.031127 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000323 seconds.
-  path: Assets/Asset Packs/VoxelCastle/Models/Wall_Straight.obj
-  artifactKey: Guid(0c67890f22519734398ef6e81ae7288c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/VoxelCastle/Models/Wall_Straight.obj using Guid(0c67890f22519734398ef6e81ae7288c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f53b95ddea41057dca0c29650db03a17') in 0.024366 seconds
-  Import took 0.027199 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000340 seconds.
-  path: Assets/Asset Packs/VoxelCastle/Models/Water_Open.png
-  artifactKey: Guid(60aad55c3a534154d8f9e46ef39bf588) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/VoxelCastle/Models/Water_Open.png using Guid(60aad55c3a534154d8f9e46ef39bf588) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abf9c689cdd5873f37cc401291e77cbb') in 0.005418 seconds
-  Import took 0.008157 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000323 seconds.
-  path: Assets/Asset Packs/VoxelCastle/Models/Wall_Out.png
-  artifactKey: Guid(c1dd00df4742cea4ba2c3d4ad0cc1612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/VoxelCastle/Models/Wall_Out.png using Guid(c1dd00df4742cea4ba2c3d4ad0cc1612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '841b57c17f2543b13637192e016207f0') in 0.005537 seconds
-  Import took 0.008436 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000358 seconds.
-  path: Assets/Asset Packs/VoxelCastle/Models/Wall_In.obj
-  artifactKey: Guid(e06f55a4e9f0e954d8cfa9474c972880) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/VoxelCastle/Models/Wall_In.obj using Guid(e06f55a4e9f0e954d8cfa9474c972880) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09b9752a51518827f4d18203bfc1d243') in 0.046129 seconds
-  Import took 0.222827 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000353 seconds.
-  path: Assets/Asset Packs/VoxelCastle/Models/Wall_Out.obj
-  artifactKey: Guid(a47cc0e994d04e14684868a64d825a9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/VoxelCastle/Models/Wall_Out.obj using Guid(a47cc0e994d04e14684868a64d825a9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78be3cfeb3a7eacc009e94e6d4886d1a') in 0.028705 seconds
-  Import took 0.031264 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.069285 seconds.
-  path: Assets/Asset Packs/VoxelCastle/Prefabs
-  artifactKey: Guid(0810c18387c203643b2bc85ab582fdff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/VoxelCastle/Prefabs using Guid(0810c18387c203643b2bc85ab582fdff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f03792897d1bfc1cc2ad1413db1fa13b') in 0.003811 seconds
-  Import took 0.007397 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002706 seconds.
-  path: Assets/Asset Packs/VoxelCastle/Prefabs
-  artifactKey: Guid(0810c18387c203643b2bc85ab582fdff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/VoxelCastle/Prefabs using Guid(0810c18387c203643b2bc85ab582fdff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f03792897d1bfc1cc2ad1413db1fa13b') in 0.002607 seconds
-  Import took 0.006706 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.017515 seconds.
-  path: Assets/Asset Packs/VoxelCastle/Prefabs/Ballista.prefab
-  artifactKey: Guid(8a965e088bae16643aab3d07ccfd5e2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/VoxelCastle/Prefabs/Ballista.prefab using Guid(8a965e088bae16643aab3d07ccfd5e2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfce8a47402160c40903aaddb79ee40a') in 0.021125 seconds
-  Import took 0.026437 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000413 seconds.
-  path: Assets/Asset Packs/VoxelCastle/Prefabs/Tower_Left.prefab
-  artifactKey: Guid(686cbd5927aa6d8498fcbade54b8d635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/VoxelCastle/Prefabs/Tower_Left.prefab using Guid(686cbd5927aa6d8498fcbade54b8d635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec10787ffaf28d313ccfffff37168f39') in 0.015951 seconds
-  Import took 0.019625 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000387 seconds.
-  path: Assets/Asset Packs/VoxelCastle/Prefabs/Tower_Straight.prefab
-  artifactKey: Guid(d37bc1d66713c1342bc827d9143c768e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/VoxelCastle/Prefabs/Tower_Straight.prefab using Guid(d37bc1d66713c1342bc827d9143c768e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62647d12b0e941f545b022baef88ac45') in 0.015601 seconds
-  Import took 0.019650 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000408 seconds.
-  path: Assets/Asset Packs/VoxelCastle/Prefabs/Gate_2.prefab
-  artifactKey: Guid(4c29e4de4a2bbfb4b8b0ef23411b4393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/VoxelCastle/Prefabs/Gate_2.prefab using Guid(4c29e4de4a2bbfb4b8b0ef23411b4393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b998f097c3c6841b4bc888d0f8457cb5') in 0.014606 seconds
-  Import took 0.019007 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000374 seconds.
-  path: Assets/Asset Packs/VoxelCastle/Prefabs/Road_Straight.prefab
-  artifactKey: Guid(516bafc615be66c4ab287e43b2c75817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/VoxelCastle/Prefabs/Road_Straight.prefab using Guid(516bafc615be66c4ab287e43b2c75817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed48072066a2d080d8e67fb3f374b1e4') in 0.012838 seconds
-  Import took 0.016731 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000244 seconds.
-  path: Assets/Asset Packs/VoxelCastle/Prefabs/Bolt.prefab
-  artifactKey: Guid(7362a7dc6d14d7748953ae63138db72f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/VoxelCastle/Prefabs/Bolt.prefab using Guid(7362a7dc6d14d7748953ae63138db72f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ff34575ba85aef9ef3b317964da9566') in 0.015659 seconds
-  Import took 0.020805 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000360 seconds.
-  path: Assets/Asset Packs/VoxelCastle/Prefabs/Road_Corner.prefab
-  artifactKey: Guid(7f00dff95729de9419a7a7c73f5e038f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/VoxelCastle/Prefabs/Road_Corner.prefab using Guid(7f00dff95729de9419a7a7c73f5e038f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5224ae78aa1d37ab7dddb293ad20f8f8') in 0.011909 seconds
-  Import took 0.016668 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000333 seconds.
-  path: Assets/Asset Packs/VoxelCastle/Prefabs/Tree_Large.prefab
-  artifactKey: Guid(e087f990d0ffa4f4c9f7dcf9b9f96eae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/VoxelCastle/Prefabs/Tree_Large.prefab using Guid(e087f990d0ffa4f4c9f7dcf9b9f96eae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa6e0b82fac884101b276a67b13bd58c') in 0.010853 seconds
-  Import took 0.016214 seconds .
+  Time since last request: 0.000234 seconds.
+  path: Assets/Asset Packs/Kenny Blaster Kit/blasterF.fbx
+  artifactKey: Guid(b39bf90f57a36b549b354d4da9e8c941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Kenny Blaster Kit/blasterF.fbx using Guid(b39bf90f57a36b549b354d4da9e8c941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adbcee6b0dfbfa8b9ee1945ae570be56') in 0.055422 seconds
+  Import took 0.059125 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000269 seconds.
-  path: Assets/Asset Packs/VoxelCastle/Prefabs/Gate_1.prefab
-  artifactKey: Guid(d0127103aeb54ed45b71e686472ac405) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/VoxelCastle/Prefabs/Gate_1.prefab using Guid(d0127103aeb54ed45b71e686472ac405) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01d605608d8922d8e78faf1bdf6f2c36') in 0.022058 seconds
-  Import took 0.153282 seconds .
+  path: Assets/Asset Packs/Kenny Blaster Kit/blasterH.fbx
+  artifactKey: Guid(ea2b95c04011eb642ba3e0cd36199227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Kenny Blaster Kit/blasterH.fbx using Guid(ea2b95c04011eb642ba3e0cd36199227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9e9b8136af421d6bb6bb45f68cb72aa') in 0.070152 seconds
+  Import took 0.076275 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000353 seconds.
-  path: Assets/Asset Packs/VoxelCastle/Prefabs/Grass.prefab
-  artifactKey: Guid(8268644ef66d0e148bce09f9dea8a666) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/VoxelCastle/Prefabs/Grass.prefab using Guid(8268644ef66d0e148bce09f9dea8a666) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '355b0075ade66c55b21c8c76bcbb004a') in 0.013446 seconds
-  Import took 0.017029 seconds .
+  Time since last request: 0.000275 seconds.
+  path: Assets/Asset Packs/Kenny Blaster Kit/foamBulletB.fbx
+  artifactKey: Guid(cfc2a7549358ffe408f765499f7cba53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Kenny Blaster Kit/foamBulletB.fbx using Guid(cfc2a7549358ffe408f765499f7cba53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '412b0f4b2f18c6147f4f10b14e16cd9b') in 0.037060 seconds
+  Import took 0.044345 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000370 seconds.
-  path: Assets/Asset Packs/VoxelCastle/Prefabs/Wall_In.prefab
-  artifactKey: Guid(34e4951a39dba9449b7dc9d52534cd97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/VoxelCastle/Prefabs/Wall_In.prefab using Guid(34e4951a39dba9449b7dc9d52534cd97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08441dfa7a9dcf60f9d8553ffb6c66e6') in 0.016565 seconds
-  Import took 0.020978 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000395 seconds.
-  path: Assets/Asset Packs/VoxelCastle/Prefabs/Tree_Group.prefab
-  artifactKey: Guid(7fb8d74871fa9c74cab9389cd54e2860) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/VoxelCastle/Prefabs/Tree_Group.prefab using Guid(7fb8d74871fa9c74cab9389cd54e2860) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca3336e82f637a6b329d2e454cec38a5') in 0.015831 seconds
-  Import took 0.022975 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000327 seconds.
-  path: Assets/Asset Packs/VoxelCastle/Prefabs/Shore_3.prefab
-  artifactKey: Guid(09b5f3214c0f1ac4a98d9eb6975d5c50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/VoxelCastle/Prefabs/Shore_3.prefab using Guid(09b5f3214c0f1ac4a98d9eb6975d5c50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b8d4b716e9e4a1cc90acfd04a9e841c') in 0.012032 seconds
-  Import took 0.016846 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000357 seconds.
-  path: Assets/Asset Packs/VoxelCastle/Prefabs/Water.prefab
-  artifactKey: Guid(437f4c0ccc35e824fac7b91fa50716d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/VoxelCastle/Prefabs/Water.prefab using Guid(437f4c0ccc35e824fac7b91fa50716d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b91f65fd1f80bc16553b039f8207c4f0') in 0.023153 seconds
-  Import took 0.027467 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000278 seconds.
-  path: Assets/Asset Packs/VoxelCastle/Prefabs/Tower_Right.prefab
-  artifactKey: Guid(9c8abec1ab510d741bfdef12c80c36d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/VoxelCastle/Prefabs/Tower_Right.prefab using Guid(9c8abec1ab510d741bfdef12c80c36d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59ba80128ede97cf7ae59113102a933b') in 0.012289 seconds
-  Import took 0.015862 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000700 seconds.
-  path: Assets/Asset Packs/VoxelCastle/Prefabs/Shore_2.prefab
-  artifactKey: Guid(be3e859d916267f489f694bfa840a7b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/VoxelCastle/Prefabs/Shore_2.prefab using Guid(be3e859d916267f489f694bfa840a7b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9540ffd0b8bfdb35c50216a3687ff3c8') in 0.021191 seconds
-  Import took 0.024849 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000319 seconds.
-  path: Assets/Asset Packs/VoxelCastle/Prefabs/Shore_1.prefab
-  artifactKey: Guid(ced0806bb3a17fd42bfe8fe5f0c2faa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/VoxelCastle/Prefabs/Shore_1.prefab using Guid(ced0806bb3a17fd42bfe8fe5f0c2faa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2da527018029ee3d1b317e698f56256b') in 0.013992 seconds
-  Import took 0.080690 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000348 seconds.
-  path: Assets/Asset Packs/VoxelCastle/Prefabs/Ram.prefab
-  artifactKey: Guid(b940df629b09f434dbb9fd487257db6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/VoxelCastle/Prefabs/Ram.prefab using Guid(b940df629b09f434dbb9fd487257db6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2aeb17c1091e42cf6917812fd0c7239') in 0.009842 seconds
-  Import took 0.091701 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000313 seconds.
-  path: Assets/Asset Packs/VoxelCastle/Prefabs/Tower_Standing.prefab
-  artifactKey: Guid(7990df5d14c5d674ab9392935d4f6bc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/VoxelCastle/Prefabs/Tower_Standing.prefab using Guid(7990df5d14c5d674ab9392935d4f6bc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '668d077cc0d90baaf63b3617b13ffcca') in 0.014195 seconds
-  Import took 0.017748 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000322 seconds.
-  path: Assets/Asset Packs/VoxelCastle/Prefabs/Wall_Straight.prefab
-  artifactKey: Guid(7f7ab251192cf3c4daa485590b0da789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/VoxelCastle/Prefabs/Wall_Straight.prefab using Guid(7f7ab251192cf3c4daa485590b0da789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9936ad4883e9f1f40db5d3ec71637937') in 0.022207 seconds
-  Import took 0.027504 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000312 seconds.
-  path: Assets/Asset Packs/VoxelCastle/Prefabs/Wall_Out.prefab
-  artifactKey: Guid(3f03f263d000f954a8885a417e678a85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/VoxelCastle/Prefabs/Wall_Out.prefab using Guid(3f03f263d000f954a8885a417e678a85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63e27b57f2e29339a4b68c8dcc8fe64d') in 0.015098 seconds
-  Import took 0.019475 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1137.563687 seconds.
-  path: Assets/Tower/Ballista.prefab
+  Time since last request: 44.215389 seconds.
+  path: Assets/Tower/Blaster.prefab
   artifactKey: Guid(35c54f497669d1e459dfc3891dc3850e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tower/Ballista.prefab using Guid(35c54f497669d1e459dfc3891dc3850e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '297aa1c9192e102b3b64fe3108e88606') in 0.027123 seconds
-  Import took 0.030985 seconds .
+Start importing Assets/Tower/Blaster.prefab using Guid(35c54f497669d1e459dfc3891dc3850e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Particle system meshes will only work with exactly one (1) sub mesh
+
+Particle system meshes will only work with exactly one (1) sub mesh
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/ParticleSystem/ParticleSystemRenderer.cpp line 283]
+
+ -> (artifact id: 'f291e05da27d1e5eb6199f56d8ce1631') in 0.015252 seconds
+  Import took 0.018659 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 93.862743 seconds.
-  path: Assets/Tower/Ballista.prefab
+  Time since last request: 15.666744 seconds.
+  path: Assets/Tower/Blaster.prefab
   artifactKey: Guid(35c54f497669d1e459dfc3891dc3850e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tower/Ballista.prefab using Guid(35c54f497669d1e459dfc3891dc3850e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d4e1a7db7d0ca25423ea73e220be987') in 0.025381 seconds
-  Import took 0.030078 seconds .
+Start importing Assets/Tower/Blaster.prefab using Guid(35c54f497669d1e459dfc3891dc3850e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45d8502c0365749ae6a8898e8a4a5243') in 0.017391 seconds
+  Import took 0.021181 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.541799 seconds.
-  path: Assets/Tower/Ballista.prefab
+  Time since last request: 1.823565 seconds.
+  path: Assets/Tower/Blaster.prefab
   artifactKey: Guid(35c54f497669d1e459dfc3891dc3850e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tower/Ballista.prefab using Guid(35c54f497669d1e459dfc3891dc3850e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8b3df267be36017dcf97b427e889a9e') in 0.005572 seconds
-  Import took 0.009699 seconds .
+Start importing Assets/Tower/Blaster.prefab using Guid(35c54f497669d1e459dfc3891dc3850e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Particle system meshes will only work with exactly one (1) sub mesh
+
+Particle system meshes will only work with exactly one (1) sub mesh
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/ParticleSystem/ParticleSystemRenderer.cpp line 283]
+
+ -> (artifact id: '6d55d4574f7f0311d86eb71792739826') in 0.019645 seconds
+  Import took 0.023921 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 40.716484 seconds.
+  path: Assets/Tiles/Ground.mat
+  artifactKey: Guid(b359e0ce34386f245827e710cdc48f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Ground.mat using Guid(b359e0ce34386f245827e710cdc48f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb8940071e9b8bcdb38b30f973fbcf96') in 0.017266 seconds
+  Import took 0.021226 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.775848 seconds.
+  path: Assets/Tower/Blaster.prefab
+  artifactKey: Guid(35c54f497669d1e459dfc3891dc3850e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tower/Blaster.prefab using Guid(35c54f497669d1e459dfc3891dc3850e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbf78a0c94d621a51c0acf0b23e57e6c') in 0.016906 seconds
+  Import took 0.021209 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.005314 seconds.
+Registered in 0.004658 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.378 seconds
+- Completed reload, in  1.632 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.85 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 3.94 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1385 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 69.5 MB.
-System memory in use after: 69.6 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1885.
-Total: 4.528000 ms (FindLiveObjects: 0.424100 ms CreateObjectMapping: 0.146800 ms MarkObjects: 3.851000 ms  DeleteObjects: 0.104300 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 232.515808 seconds.
-  path: Assets/Tower/Ballista.prefab
-  artifactKey: Guid(35c54f497669d1e459dfc3891dc3850e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tower/Ballista.prefab using Guid(35c54f497669d1e459dfc3891dc3850e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '893c87492329ea1e2037c82c9c3ceeba') in 0.069428 seconds
-  Import took 0.073461 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.250170 seconds.
-  path: Assets/Tower/Blaster.prefab
-  artifactKey: Guid(35c54f497669d1e459dfc3891dc3850e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tower/Blaster.prefab using Guid(35c54f497669d1e459dfc3891dc3850e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaef6032978bc5520eb75aacdfe38dad') in 0.016033 seconds
-  Import took 0.096805 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.461018 seconds.
-  path: Assets/Tower/Blaster.prefab
-  artifactKey: Guid(35c54f497669d1e459dfc3891dc3850e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tower/Blaster.prefab using Guid(35c54f497669d1e459dfc3891dc3850e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ba056561e27bfacc79acc28230b5dd2') in 0.015894 seconds
-  Import took 0.019406 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.245565 seconds.
-  path: Assets/Tower/Blaster.prefab
-  artifactKey: Guid(35c54f497669d1e459dfc3891dc3850e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tower/Blaster.prefab using Guid(35c54f497669d1e459dfc3891dc3850e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0080212da3b56347ae4c0d27507478a') in 0.015002 seconds
-  Import took 0.019692 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.679196 seconds.
-  path: Assets/Tower/Blaster.prefab
-  artifactKey: Guid(35c54f497669d1e459dfc3891dc3850e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tower/Blaster.prefab using Guid(35c54f497669d1e459dfc3891dc3850e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43d641bbc324ed2165b555f02bc81283') in 0.029924 seconds
-  Import took 0.035349 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.567486 seconds.
-  path: Assets/Tower/Blaster.prefab
-  artifactKey: Guid(35c54f497669d1e459dfc3891dc3850e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tower/Blaster.prefab using Guid(35c54f497669d1e459dfc3891dc3850e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dd86d186779ba8d8b514a871ad897a6') in 0.017061 seconds
-  Import took 0.020419 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.401002 seconds.
-  path: Assets/Tower/Blaster.prefab
-  artifactKey: Guid(35c54f497669d1e459dfc3891dc3850e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tower/Blaster.prefab using Guid(35c54f497669d1e459dfc3891dc3850e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9bc4ef4905ab01b5453ac00efc2941f') in 0.016567 seconds
-  Import took 0.020392 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004834 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.222 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1385 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 69.6 MB.
+System memory in use before: 69.7 MB.
 System memory in use after: 69.7 MB.
 
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1889.
-Total: 2.425900 ms (FindLiveObjects: 0.248400 ms CreateObjectMapping: 0.051200 ms MarkObjects: 2.060200 ms  DeleteObjects: 0.063800 ms)
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1884.
+Total: 7.768000 ms (FindLiveObjects: 0.194800 ms CreateObjectMapping: 0.073100 ms MarkObjects: 7.392800 ms  DeleteObjects: 0.106000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008944 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.480 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1385 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 69.7 MB.
+System memory in use after: 69.8 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1887.
+Total: 2.344500 ms (FindLiveObjects: 0.202300 ms CreateObjectMapping: 0.047100 ms MarkObjects: 1.999400 ms  DeleteObjects: 0.094600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 332.486587 seconds.
+  path: Assets/Enemy/UFO.prefab
+  artifactKey: Guid(d314269152ff035488b66d14f011b755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemy/UFO.prefab using Guid(d314269152ff035488b66d14f011b755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc715a98304a0d071bad50f906238e9f') in 0.077706 seconds
+  Import took 0.082497 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.533865 seconds.
+  path: Assets/Enemy/UFO.prefab
+  artifactKey: Guid(d314269152ff035488b66d14f011b755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemy/UFO.prefab using Guid(d314269152ff035488b66d14f011b755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73149b43d8f346a2fc937c2408c31cc0') in 0.028230 seconds
+  Import took 0.033670 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003591 seconds.
+  path: Assets/Enemy/UFO.prefab
+  artifactKey: Guid(d314269152ff035488b66d14f011b755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemy/UFO.prefab using Guid(d314269152ff035488b66d14f011b755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73149b43d8f346a2fc937c2408c31cc0') in 0.016764 seconds
+  Import took 0.020092 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.691139 seconds.
+  path: Assets/Enemy/UFO.prefab
+  artifactKey: Guid(d314269152ff035488b66d14f011b755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemy/UFO.prefab using Guid(d314269152ff035488b66d14f011b755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3749d2a063400cbdae5301a99c70afdd') in 0.010009 seconds
+  Import took 0.013200 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016979 seconds.
+  path: Assets/Enemy/UFO.prefab
+  artifactKey: Guid(d314269152ff035488b66d14f011b755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemy/UFO.prefab using Guid(d314269152ff035488b66d14f011b755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3749d2a063400cbdae5301a99c70afdd') in 0.023380 seconds
+  Import took 0.029974 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005037 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.802 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1385 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 69.7 MB.
+System memory in use after: 69.8 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1891.
+Total: 2.431100 ms (FindLiveObjects: 0.176100 ms CreateObjectMapping: 0.045200 ms MarkObjects: 2.132800 ms  DeleteObjects: 0.074700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006140 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.514 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1385 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 69.7 MB.
+System memory in use after: 69.8 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1894.
+Total: 3.065500 ms (FindLiveObjects: 0.303500 ms CreateObjectMapping: 0.041300 ms MarkObjects: 2.624800 ms  DeleteObjects: 0.094400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 86.153656 seconds.
+  path: Assets/Tower/Blaster.prefab
+  artifactKey: Guid(35c54f497669d1e459dfc3891dc3850e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tower/Blaster.prefab using Guid(35c54f497669d1e459dfc3891dc3850e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd32c580c26d6626ee746f3d6b52e0da0') in 0.084954 seconds
+  Import took 0.090052 seconds .
 

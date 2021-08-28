@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9198932607979297800}
   - component: {fileID: 9198932607979297801}
+  - component: {fileID: 3838023426433298928}
   m_Layer: 0
   m_Name: UFO
   m_TagString: Untagged
@@ -46,6 +47,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   path: []
   speed: 1
+--- !u!64 &3838023426433298928
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9198932607979297807}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -6480224471251174228, guid: bd677c6e03457714aa370ef6b738cae6, type: 3}
 --- !u!1001 &9198932609244749225
 PrefabInstance:
   m_ObjectHideFlags: 0
