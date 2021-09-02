@@ -15,11 +15,11 @@ D:/Users/brian/source/repos/unity/tower-defense
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-60385
+57519
 Successfully changed project path to: D:/Users/brian/source/repos/unity/tower-defense
 D:/Users/brian/source/repos/unity/tower-defense
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 34.57 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 34.85 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.11f1 (99c7afb366b3)
 [Subsystems] Discovering subsystems at path D:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Resources/UnitySubsystems
@@ -35,569 +35,143 @@ Initialize mono
 Mono path[0] = 'D:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'D:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56168
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56364
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: D:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001998 seconds.
+Registered in 0.001880 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 50.60 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 38.07 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.041 seconds
+- Completed reload, in  1.561 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005834 seconds.
+Registered in 0.004488 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.367 seconds
+- Completed reload, in  1.519 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
-Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
+Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1403 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1405 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 67.3 MB.
-System memory in use after: 67.3 MB.
+System memory in use after: 67.4 MB.
 
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1837.
-Total: 2.821900 ms (FindLiveObjects: 0.215800 ms CreateObjectMapping: 0.052900 ms MarkObjects: 2.427600 ms  DeleteObjects: 0.124400 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Tower/Blaster.prefab
-  artifactKey: Guid(35c54f497669d1e459dfc3891dc3850e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tower/Blaster.prefab using Guid(35c54f497669d1e459dfc3891dc3850e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82c55abcf254db567fe19157834f202d') in 0.177659 seconds
-  Import took 0.180649 seconds .
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1839.
+Total: 2.995000 ms (FindLiveObjects: 0.176600 ms CreateObjectMapping: 0.055600 ms MarkObjects: 2.648000 ms  DeleteObjects: 0.113100 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 91.214829 seconds.
-  path: Assets/Tower/Blaster.prefab
-  artifactKey: Guid(35c54f497669d1e459dfc3891dc3850e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tower/Blaster.prefab using Guid(35c54f497669d1e459dfc3891dc3850e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccb162ed4c53ec5a8b1b3c0fbdd521c5') in 0.060292 seconds
-  Import took 0.064395 seconds .
+  path: Assets/Enemy/ObjectPool.cs
+  artifactKey: Guid(b4ac5ff44cae23d4dbacaaf88eda4c40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemy/ObjectPool.cs using Guid(b4ac5ff44cae23d4dbacaaf88eda4c40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b532d2e1cdbc71832064dac51a8a85cd') in 0.092013 seconds
+  Import took 0.122438 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.258067 seconds.
-  path: Assets/Tower/Blaster.prefab
-  artifactKey: Guid(35c54f497669d1e459dfc3891dc3850e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tower/Blaster.prefab using Guid(35c54f497669d1e459dfc3891dc3850e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18885ee2fe0c6e727a217b6f1388b0fc') in 0.019146 seconds
-  Import took 0.022819 seconds .
+  Time since last request: 8.007521 seconds.
+  path: Assets/Enemy/ObjectPool.cs
+  artifactKey: Guid(b4ac5ff44cae23d4dbacaaf88eda4c40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemy/ObjectPool.cs using Guid(b4ac5ff44cae23d4dbacaaf88eda4c40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f61e8680e61b23067b747058598fdc3d') in 0.003587 seconds
+  Import took 0.010355 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 8.921734 seconds.
-  path: Assets/Tower/Blaster.prefab
-  artifactKey: Guid(35c54f497669d1e459dfc3891dc3850e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tower/Blaster.prefab using Guid(35c54f497669d1e459dfc3891dc3850e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Particle system meshes will only work with exactly one (1) sub mesh
-
-Particle system meshes will only work with exactly one (1) sub mesh
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/ParticleSystem/ParticleSystemRenderer.cpp line 283]
-
- -> (artifact id: '36d2e8886ffee2b95b90591fa917c050') in 0.045727 seconds
-  Import took 0.049125 seconds .
+  Time since last request: 0.004575 seconds.
+  path: Assets/Enemy/ObjectPool.cs
+  artifactKey: Guid(b4ac5ff44cae23d4dbacaaf88eda4c40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemy/ObjectPool.cs using Guid(b4ac5ff44cae23d4dbacaaf88eda4c40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f61e8680e61b23067b747058598fdc3d') in 0.003162 seconds
+  Import took 0.012054 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.286519 seconds.
-  path: Assets/Tower/Blaster.prefab
-  artifactKey: Guid(35c54f497669d1e459dfc3891dc3850e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tower/Blaster.prefab using Guid(35c54f497669d1e459dfc3891dc3850e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Particle system meshes will only work with exactly one (1) sub mesh
-
-Particle system meshes will only work with exactly one (1) sub mesh
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/ParticleSystem/ParticleSystemRenderer.cpp line 283]
-
- -> (artifact id: 'e5c560bdb04cfee1f372d772abe31650') in 0.028219 seconds
-  Import took 0.031582 seconds .
+  Time since last request: 26.620755 seconds.
+  path: Assets/Enemy/ObjectPool.cs
+  artifactKey: Guid(b4ac5ff44cae23d4dbacaaf88eda4c40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemy/ObjectPool.cs using Guid(b4ac5ff44cae23d4dbacaaf88eda4c40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7fa847a972b57b73db9512cef521298') in 0.004284 seconds
+  Import took 0.030950 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.635100 seconds.
-  path: Assets/Tower/Blaster.prefab
-  artifactKey: Guid(35c54f497669d1e459dfc3891dc3850e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tower/Blaster.prefab using Guid(35c54f497669d1e459dfc3891dc3850e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Particle system meshes will only work with exactly one (1) sub mesh
-
-Particle system meshes will only work with exactly one (1) sub mesh
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/ParticleSystem/ParticleSystemRenderer.cpp line 283]
-
- -> (artifact id: '26a08051b2a0cfd81b4dd495efc85453') in 0.019756 seconds
-  Import took 0.024158 seconds .
+  Time since last request: 28.276533 seconds.
+  path: Assets/Enemy/ObjectPool.cs
+  artifactKey: Guid(b4ac5ff44cae23d4dbacaaf88eda4c40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemy/ObjectPool.cs using Guid(b4ac5ff44cae23d4dbacaaf88eda4c40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3633c418adae1276f79dc05b622896f9') in 0.004643 seconds
+  Import took 0.023311 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 9.369604 seconds.
-  path: Assets/Tower/Blaster.prefab
-  artifactKey: Guid(35c54f497669d1e459dfc3891dc3850e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tower/Blaster.prefab using Guid(35c54f497669d1e459dfc3891dc3850e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Particle system meshes will only work with exactly one (1) sub mesh
-
-Particle system meshes will only work with exactly one (1) sub mesh
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/ParticleSystem/ParticleSystemRenderer.cpp line 283]
-
- -> (artifact id: '90fe1130c9eec80924576def8a990dcf') in 0.030940 seconds
-  Import took 0.034175 seconds .
+  Time since last request: 0.002614 seconds.
+  path: Assets/Enemy/ObjectPool.cs
+  artifactKey: Guid(b4ac5ff44cae23d4dbacaaf88eda4c40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemy/ObjectPool.cs using Guid(b4ac5ff44cae23d4dbacaaf88eda4c40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3633c418adae1276f79dc05b622896f9') in 0.006845 seconds
+  Import took 0.010582 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.619207 seconds.
-  path: Assets/Tower/Blaster.prefab
-  artifactKey: Guid(35c54f497669d1e459dfc3891dc3850e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tower/Blaster.prefab using Guid(35c54f497669d1e459dfc3891dc3850e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Particle system meshes will only work with exactly one (1) sub mesh
-
-Particle system meshes will only work with exactly one (1) sub mesh
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/ParticleSystem/ParticleSystemRenderer.cpp line 283]
-
- -> (artifact id: '1c87cdf520d0403b244405e905221161') in 0.026035 seconds
-  Import took 0.029830 seconds .
+  Time since last request: 5.616567 seconds.
+  path: Assets/Enemy/ObjectPool.cs
+  artifactKey: Guid(b4ac5ff44cae23d4dbacaaf88eda4c40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemy/ObjectPool.cs using Guid(b4ac5ff44cae23d4dbacaaf88eda4c40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '366b8a896a78ffa1bd9ce71ca226ae01') in 0.004970 seconds
+  Import took 0.035891 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 11.973338 seconds.
-  path: Assets/Tower/Blaster.prefab
-  artifactKey: Guid(35c54f497669d1e459dfc3891dc3850e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tower/Blaster.prefab using Guid(35c54f497669d1e459dfc3891dc3850e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Particle system meshes will only work with exactly one (1) sub mesh
-
-Particle system meshes will only work with exactly one (1) sub mesh
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/ParticleSystem/ParticleSystemRenderer.cpp line 283]
-
- -> (artifact id: 'afb1869f5f4f0c0078f12b8d74cbaac0') in 0.021962 seconds
-  Import took 0.035480 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 110.351900 seconds.
-  path: Assets/Asset Packs/Kenny Blaster Kit
-  artifactKey: Guid(20fe93be15ad7c04885390a83f3d25fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/Kenny Blaster Kit using Guid(20fe93be15ad7c04885390a83f3d25fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16dcd12d111586d9f806a36b6bceeaaa') in 0.003698 seconds
-  Import took 0.029725 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 29.080119 seconds.
-  path: Assets/Asset Packs/Kenny Blaster Kit/blasterN.fbx
-  artifactKey: Guid(f390458fb52af4944a6b792c0245779f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/Kenny Blaster Kit/blasterN.fbx using Guid(f390458fb52af4944a6b792c0245779f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31f9e87fe1848529a943e7d4468fe6c7') in 0.268634 seconds
-  Import took 0.274748 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000215 seconds.
-  path: Assets/Asset Packs/Kenny Blaster Kit/blasterN.fbx
-  artifactKey: Guid(f390458fb52af4944a6b792c0245779f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/Kenny Blaster Kit/blasterN.fbx using Guid(f390458fb52af4944a6b792c0245779f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31f9e87fe1848529a943e7d4468fe6c7') in 0.085342 seconds
-  Import took 0.090458 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.399736 seconds.
-  path: Assets/Asset Packs/Kenny Blaster Kit/blasterM.fbx
-  artifactKey: Guid(ab043ce423c5b1c47b81eb9cb11a3456) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/Kenny Blaster Kit/blasterM.fbx using Guid(ab043ce423c5b1c47b81eb9cb11a3456) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31162224827fe76e6cc8b134803ed6d1') in 0.065123 seconds
-  Import took 0.069160 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.263422 seconds.
-  path: Assets/Asset Packs/Kenny Blaster Kit/blasterA.fbx
-  artifactKey: Guid(08e1d6ee3af36b940ae48162a54d1571) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/Kenny Blaster Kit/blasterA.fbx using Guid(08e1d6ee3af36b940ae48162a54d1571) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4aabd5abc3f52a0b8a843da030e438e4') in 0.052325 seconds
-  Import took 0.057941 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000404 seconds.
-  path: Assets/Asset Packs/Kenny Blaster Kit/blasterB.fbx
-  artifactKey: Guid(58a45efc75806d848a3a0d94ec3edf10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/Kenny Blaster Kit/blasterB.fbx using Guid(58a45efc75806d848a3a0d94ec3edf10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e369fe216d5707492d4c793d42d1ea6c') in 0.074433 seconds
-  Import took 0.079039 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000216 seconds.
-  path: Assets/Asset Packs/Kenny Blaster Kit/blasterL.fbx
-  artifactKey: Guid(03b83ec88573c1c4f8b2d9d0e9bc7de1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/Kenny Blaster Kit/blasterL.fbx using Guid(03b83ec88573c1c4f8b2d9d0e9bc7de1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '275b1b6698c6767b82d3d0566bcca066') in 0.062337 seconds
-  Import took 0.065223 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000209 seconds.
-  path: Assets/Asset Packs/Kenny Blaster Kit/foamBulletA.fbx
-  artifactKey: Guid(be26ecb36c4719442b6b783f437d28a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/Kenny Blaster Kit/foamBulletA.fbx using Guid(be26ecb36c4719442b6b783f437d28a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc886b434d7937af3aeca5c00ce14dcf') in 0.023541 seconds
-  Import took 0.026858 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000325 seconds.
-  path: Assets/Asset Packs/Kenny Blaster Kit/blasterD.fbx
-  artifactKey: Guid(dd2372ed5b62e56408b37217bf058925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/Kenny Blaster Kit/blasterD.fbx using Guid(dd2372ed5b62e56408b37217bf058925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43a224b401a08c5cf3f3b43a2343f7b4') in 0.077812 seconds
-  Import took 0.083090 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000393 seconds.
-  path: Assets/Asset Packs/Kenny Blaster Kit/blasterJ.fbx
-  artifactKey: Guid(b96e2f142f210b7439d9383b9e68f1a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/Kenny Blaster Kit/blasterJ.fbx using Guid(b96e2f142f210b7439d9383b9e68f1a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fc47d144270e719e68737aeae4971d6') in 0.060752 seconds
-  Import took 0.064899 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000259 seconds.
-  path: Assets/Asset Packs/Kenny Blaster Kit/targetA.fbx
-  artifactKey: Guid(05e1c5a101d852a49930235d0102e2b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/Kenny Blaster Kit/targetA.fbx using Guid(05e1c5a101d852a49930235d0102e2b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9903489a3bf177cffda9f467d2c7252') in 0.042996 seconds
-  Import took 0.050155 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000391 seconds.
-  path: Assets/Asset Packs/Kenny Blaster Kit/clipA.fbx
-  artifactKey: Guid(9ddfa4a02710d524e85d3696988ed7cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/Kenny Blaster Kit/clipA.fbx using Guid(9ddfa4a02710d524e85d3696988ed7cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3dca9775fb004fe4bbb51e34698af62') in 0.043510 seconds
-  Import took 0.075304 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000298 seconds.
-  path: Assets/Asset Packs/Kenny Blaster Kit/blasterK.fbx
-  artifactKey: Guid(bcae037931c9fe245a3e00ea9696d2fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/Kenny Blaster Kit/blasterK.fbx using Guid(bcae037931c9fe245a3e00ea9696d2fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e7545afdd8fbbc1574aeb7768814de6') in 0.055938 seconds
-  Import took 0.062189 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000332 seconds.
-  path: Assets/Asset Packs/Kenny Blaster Kit/blasterI.fbx
-  artifactKey: Guid(002ddaccfe195e149b8f7185cb204249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/Kenny Blaster Kit/blasterI.fbx using Guid(002ddaccfe195e149b8f7185cb204249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa82d57bc2fd7876dda92a599947a0cd') in 0.079809 seconds
-  Import took 0.084561 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000251 seconds.
-  path: Assets/Asset Packs/Kenny Blaster Kit/blasterG.fbx
-  artifactKey: Guid(d9da29126b85c4b4a8649777cfef59a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/Kenny Blaster Kit/blasterG.fbx using Guid(d9da29126b85c4b4a8649777cfef59a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2aa09c56cc300fa006468a87ec335dbf') in 0.056369 seconds
-  Import took 0.059815 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000607 seconds.
-  path: Assets/Asset Packs/Kenny Blaster Kit/targetB.fbx
-  artifactKey: Guid(842ffd4a516c5b84da3b89a662fec98e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/Kenny Blaster Kit/targetB.fbx using Guid(842ffd4a516c5b84da3b89a662fec98e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22bce5428f2ec345d897d703f7624072') in 0.053958 seconds
-  Import took 0.059087 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000354 seconds.
-  path: Assets/Asset Packs/Kenny Blaster Kit/blasterC.fbx
-  artifactKey: Guid(e92075cc1ec0b4348b697bf2d9e78422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/Kenny Blaster Kit/blasterC.fbx using Guid(e92075cc1ec0b4348b697bf2d9e78422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15af9746a6d9cebc8f014d79374a4585') in 0.058445 seconds
-  Import took 0.063073 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000257 seconds.
-  path: Assets/Asset Packs/Kenny Blaster Kit/blasterE.fbx
-  artifactKey: Guid(b95f8e3e6148b1743a3532c42382aca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/Kenny Blaster Kit/blasterE.fbx using Guid(b95f8e3e6148b1743a3532c42382aca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a5874eb457de3ff85e2f2800e896bc1') in 0.062297 seconds
-  Import took 0.065511 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000234 seconds.
-  path: Assets/Asset Packs/Kenny Blaster Kit/blasterF.fbx
-  artifactKey: Guid(b39bf90f57a36b549b354d4da9e8c941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/Kenny Blaster Kit/blasterF.fbx using Guid(b39bf90f57a36b549b354d4da9e8c941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adbcee6b0dfbfa8b9ee1945ae570be56') in 0.055422 seconds
-  Import took 0.059125 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000269 seconds.
-  path: Assets/Asset Packs/Kenny Blaster Kit/blasterH.fbx
-  artifactKey: Guid(ea2b95c04011eb642ba3e0cd36199227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/Kenny Blaster Kit/blasterH.fbx using Guid(ea2b95c04011eb642ba3e0cd36199227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9e9b8136af421d6bb6bb45f68cb72aa') in 0.070152 seconds
-  Import took 0.076275 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000275 seconds.
-  path: Assets/Asset Packs/Kenny Blaster Kit/foamBulletB.fbx
-  artifactKey: Guid(cfc2a7549358ffe408f765499f7cba53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/Kenny Blaster Kit/foamBulletB.fbx using Guid(cfc2a7549358ffe408f765499f7cba53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '412b0f4b2f18c6147f4f10b14e16cd9b') in 0.037060 seconds
-  Import took 0.044345 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 44.215389 seconds.
-  path: Assets/Tower/Blaster.prefab
-  artifactKey: Guid(35c54f497669d1e459dfc3891dc3850e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tower/Blaster.prefab using Guid(35c54f497669d1e459dfc3891dc3850e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Particle system meshes will only work with exactly one (1) sub mesh
-
-Particle system meshes will only work with exactly one (1) sub mesh
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/ParticleSystem/ParticleSystemRenderer.cpp line 283]
-
- -> (artifact id: 'f291e05da27d1e5eb6199f56d8ce1631') in 0.015252 seconds
-  Import took 0.018659 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 15.666744 seconds.
-  path: Assets/Tower/Blaster.prefab
-  artifactKey: Guid(35c54f497669d1e459dfc3891dc3850e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tower/Blaster.prefab using Guid(35c54f497669d1e459dfc3891dc3850e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45d8502c0365749ae6a8898e8a4a5243') in 0.017391 seconds
-  Import took 0.021181 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.823565 seconds.
-  path: Assets/Tower/Blaster.prefab
-  artifactKey: Guid(35c54f497669d1e459dfc3891dc3850e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tower/Blaster.prefab using Guid(35c54f497669d1e459dfc3891dc3850e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Particle system meshes will only work with exactly one (1) sub mesh
-
-Particle system meshes will only work with exactly one (1) sub mesh
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/ParticleSystem/ParticleSystemRenderer.cpp line 283]
-
- -> (artifact id: '6d55d4574f7f0311d86eb71792739826') in 0.019645 seconds
-  Import took 0.023921 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 40.716484 seconds.
-  path: Assets/Tiles/Ground.mat
-  artifactKey: Guid(b359e0ce34386f245827e710cdc48f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Ground.mat using Guid(b359e0ce34386f245827e710cdc48f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb8940071e9b8bcdb38b30f973fbcf96') in 0.017266 seconds
-  Import took 0.021226 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.775848 seconds.
-  path: Assets/Tower/Blaster.prefab
-  artifactKey: Guid(35c54f497669d1e459dfc3891dc3850e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tower/Blaster.prefab using Guid(35c54f497669d1e459dfc3891dc3850e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbf78a0c94d621a51c0acf0b23e57e6c') in 0.016906 seconds
-  Import took 0.021209 seconds .
+  Time since last request: 3.167717 seconds.
+  path: Assets/Enemy/ObjectPool.cs
+  artifactKey: Guid(b4ac5ff44cae23d4dbacaaf88eda4c40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemy/ObjectPool.cs using Guid(b4ac5ff44cae23d4dbacaaf88eda4c40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53e49d7b1d91b62f41b01f9f4b3dee64') in 0.004065 seconds
+  Import took 0.012987 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004658 seconds.
+Registered in 0.005109 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.632 seconds
+- Completed reload, in  1.518 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.94 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1385 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 69.7 MB.
-System memory in use after: 69.7 MB.
+Unloading 1387 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 66.0 MB.
+System memory in use after: 66.1 MB.
 
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1884.
-Total: 7.768000 ms (FindLiveObjects: 0.194800 ms CreateObjectMapping: 0.073100 ms MarkObjects: 7.392800 ms  DeleteObjects: 0.106000 ms)
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1842.
+Total: 2.368300 ms (FindLiveObjects: 0.136400 ms CreateObjectMapping: 0.065500 ms MarkObjects: 2.039000 ms  DeleteObjects: 0.126100 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.008944 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.480 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1385 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 69.7 MB.
-System memory in use after: 69.8 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1887.
-Total: 2.344500 ms (FindLiveObjects: 0.202300 ms CreateObjectMapping: 0.047100 ms MarkObjects: 1.999400 ms  DeleteObjects: 0.094600 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 332.486587 seconds.
-  path: Assets/Enemy/UFO.prefab
-  artifactKey: Guid(d314269152ff035488b66d14f011b755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enemy/UFO.prefab using Guid(d314269152ff035488b66d14f011b755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc715a98304a0d071bad50f906238e9f') in 0.077706 seconds
-  Import took 0.082497 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.533865 seconds.
-  path: Assets/Enemy/UFO.prefab
-  artifactKey: Guid(d314269152ff035488b66d14f011b755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enemy/UFO.prefab using Guid(d314269152ff035488b66d14f011b755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73149b43d8f346a2fc937c2408c31cc0') in 0.028230 seconds
-  Import took 0.033670 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.003591 seconds.
-  path: Assets/Enemy/UFO.prefab
-  artifactKey: Guid(d314269152ff035488b66d14f011b755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enemy/UFO.prefab using Guid(d314269152ff035488b66d14f011b755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73149b43d8f346a2fc937c2408c31cc0') in 0.016764 seconds
-  Import took 0.020092 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 16.691139 seconds.
-  path: Assets/Enemy/UFO.prefab
-  artifactKey: Guid(d314269152ff035488b66d14f011b755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enemy/UFO.prefab using Guid(d314269152ff035488b66d14f011b755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3749d2a063400cbdae5301a99c70afdd') in 0.010009 seconds
-  Import took 0.013200 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.016979 seconds.
-  path: Assets/Enemy/UFO.prefab
-  artifactKey: Guid(d314269152ff035488b66d14f011b755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enemy/UFO.prefab using Guid(d314269152ff035488b66d14f011b755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3749d2a063400cbdae5301a99c70afdd') in 0.023380 seconds
-  Import took 0.029974 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005037 seconds.
+Registered in 0.005610 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.802 seconds
+- Completed reload, in  1.459 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1385 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 69.7 MB.
-System memory in use after: 69.8 MB.
+Unloading 1387 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 66.0 MB.
+System memory in use after: 66.1 MB.
 
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1891.
-Total: 2.431100 ms (FindLiveObjects: 0.176100 ms CreateObjectMapping: 0.045200 ms MarkObjects: 2.132800 ms  DeleteObjects: 0.074700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006140 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.514 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1385 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 69.7 MB.
-System memory in use after: 69.8 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1894.
-Total: 3.065500 ms (FindLiveObjects: 0.303500 ms CreateObjectMapping: 0.041300 ms MarkObjects: 2.624800 ms  DeleteObjects: 0.094400 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 86.153656 seconds.
-  path: Assets/Tower/Blaster.prefab
-  artifactKey: Guid(35c54f497669d1e459dfc3891dc3850e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tower/Blaster.prefab using Guid(35c54f497669d1e459dfc3891dc3850e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd32c580c26d6626ee746f3d6b52e0da0') in 0.084954 seconds
-  Import took 0.090052 seconds .
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1845.
+Total: 2.497200 ms (FindLiveObjects: 0.180100 ms CreateObjectMapping: 0.073300 ms MarkObjects: 2.142100 ms  DeleteObjects: 0.100700 ms)
 
