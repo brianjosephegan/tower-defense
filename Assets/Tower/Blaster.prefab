@@ -4814,6 +4814,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3278847393593532674}
   - component: {fileID: 6650929017603636058}
+  - component: {fileID: -7272379767131324926}
   m_Layer: 0
   m_Name: Blaster
   m_TagString: Untagged
@@ -4850,6 +4851,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   weapon: {fileID: 9130402810976228996}
+  projectileParticles: {fileID: 5933132052681246224}
+  towerRange: 15
+--- !u!114 &-7272379767131324926
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8808335150368734939}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 065ed35a7a1e18841808b5b980745f3e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &8736716672150942063
 PrefabInstance:
   m_ObjectHideFlags: 0
