@@ -15,11 +15,11 @@ D:/Users/brian/source/repos/unity/tower-defense
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50265
+60163
 Successfully changed project path to: D:/Users/brian/source/repos/unity/tower-defense
 D:/Users/brian/source/repos/unity/tower-defense
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 45.11 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 50.91 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.11f1 (99c7afb366b3)
 [Subsystems] Discovering subsystems at path D:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Resources/UnitySubsystems
@@ -35,93 +35,169 @@ Initialize mono
 Mono path[0] = 'D:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'D:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56952
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56888
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: D:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002131 seconds.
+Registered in 0.002292 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 45.89 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 49.17 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.772 seconds
+- Completed reload, in  1.678 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004532 seconds.
+Registered in 0.006183 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.476 seconds
+- Completed reload, in  1.684 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1408 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 67.5 MB.
 System memory in use after: 67.6 MB.
 
 Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1842.
-Total: 2.425500 ms (FindLiveObjects: 0.349300 ms CreateObjectMapping: 0.082400 ms MarkObjects: 1.881200 ms  DeleteObjects: 0.111200 ms)
+Total: 3.341000 ms (FindLiveObjects: 0.377800 ms CreateObjectMapping: 0.123000 ms MarkObjects: 2.706400 ms  DeleteObjects: 0.131700 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Tiles/Tile River Bridge.prefab
-  artifactKey: Guid(b1a94dca2db5f824db09fa0eb171f34f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Tile River Bridge.prefab using Guid(b1a94dca2db5f824db09fa0eb171f34f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2728386fdf0532e8f632986a7ef9a81b') in 0.147946 seconds
-  Import took 0.151124 seconds .
+  path: Assets/Tower/Blaster.prefab
+  artifactKey: Guid(35c54f497669d1e459dfc3891dc3850e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tower/Blaster.prefab using Guid(35c54f497669d1e459dfc3891dc3850e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0e8987a1b9d0496c185d796b393d9b1') in 0.253897 seconds
+  Import took 0.427842 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006349 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.254 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1390 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 69.3 MB.
+System memory in use after: 69.4 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1852.
+Total: 2.730800 ms (FindLiveObjects: 0.175300 ms CreateObjectMapping: 0.039000 ms MarkObjects: 2.391500 ms  DeleteObjects: 0.123900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005856 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.216 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1390 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 69.3 MB.
+System memory in use after: 69.4 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1855.
+Total: 2.290800 ms (FindLiveObjects: 0.140100 ms CreateObjectMapping: 0.043200 ms MarkObjects: 2.032200 ms  DeleteObjects: 0.074300 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.348878 seconds.
-  path: Assets/Tiles/Tile River Bridge.prefab
-  artifactKey: Guid(b1a94dca2db5f824db09fa0eb171f34f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Tile River Bridge.prefab using Guid(b1a94dca2db5f824db09fa0eb171f34f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '935e248253afe1451c99082a6f3eedd2') in 0.110384 seconds
-  Import took 0.113977 seconds .
+  Time since last request: 144.511463 seconds.
+  path: Assets/Tower/Blaster.prefab
+  artifactKey: Guid(35c54f497669d1e459dfc3891dc3850e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tower/Blaster.prefab using Guid(35c54f497669d1e459dfc3891dc3850e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e6a757b24c617a7b80de191a03f9b0e') in 0.083039 seconds
+  Import took 0.319244 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.259476 seconds.
-  path: Assets/Tiles/Tile River Bridge 1.prefab
-  artifactKey: Guid(b2956b49a0352814590a80ea7ccf16a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Tile River Bridge 1.prefab using Guid(b2956b49a0352814590a80ea7ccf16a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8b58ac16a91a78e6d0de1f8c15524a1') in 0.051013 seconds
-  Import took 0.055264 seconds .
+  Time since last request: 0.598814 seconds.
+  path: Assets/Tower/Tower.cs
+  artifactKey: Guid(065ed35a7a1e18841808b5b980745f3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tower/Tower.cs using Guid(065ed35a7a1e18841808b5b980745f3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5009a4d5e092e821c0592f79ca222dea') in 0.035095 seconds
+  Import took 0.119262 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006669 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.613 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1390 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 69.4 MB.
+System memory in use after: 69.4 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1859.
+Total: 2.493400 ms (FindLiveObjects: 0.151400 ms CreateObjectMapping: 0.042800 ms MarkObjects: 2.223000 ms  DeleteObjects: 0.075400 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.036249 seconds.
-  path: Assets/Tiles/Tile River Bridge 1.prefab
-  artifactKey: Guid(b2956b49a0352814590a80ea7ccf16a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Tile River Bridge 1.prefab using Guid(b2956b49a0352814590a80ea7ccf16a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8b58ac16a91a78e6d0de1f8c15524a1') in 0.044839 seconds
-  Import took 0.048314 seconds .
+  Time since last request: 176.196239 seconds.
+  path: Assets/Tower/Tower.cs
+  artifactKey: Guid(065ed35a7a1e18841808b5b980745f3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tower/Tower.cs using Guid(065ed35a7a1e18841808b5b980745f3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59bc5e5de197e0996f2fb4607957f8b8') in 0.005781 seconds
+  Import took 0.156682 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.263149 seconds.
-  path: Assets/Tiles/Tile River Bridge 90.prefab
-  artifactKey: Guid(b2956b49a0352814590a80ea7ccf16a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Tile River Bridge 90.prefab using Guid(b2956b49a0352814590a80ea7ccf16a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6489d45dae0f7468fec59d110e5c3b46') in 0.055971 seconds
-  Import took 0.060533 seconds .
+  Time since last request: 0.000389 seconds.
+  path: Assets/Tower/Blaster.prefab
+  artifactKey: Guid(35c54f497669d1e459dfc3891dc3850e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tower/Blaster.prefab using Guid(35c54f497669d1e459dfc3891dc3850e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b56ff927d8067652a52361dea9ae5cd3') in 0.128905 seconds
+  Import took 0.137018 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004082 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.418 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1390 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 69.4 MB.
+System memory in use after: 69.4 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1863.
+Total: 3.288500 ms (FindLiveObjects: 0.171200 ms CreateObjectMapping: 0.040200 ms MarkObjects: 2.979100 ms  DeleteObjects: 0.096400 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.016712 seconds.
-  path: Assets/Tiles/Tile River Bridge 90.prefab
-  artifactKey: Guid(b2956b49a0352814590a80ea7ccf16a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Tile River Bridge 90.prefab using Guid(b2956b49a0352814590a80ea7ccf16a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6489d45dae0f7468fec59d110e5c3b46') in 0.041988 seconds
-  Import took 0.048065 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.354195 seconds.
-  path: Assets/Tiles/Tile River Bridge 90.prefab
-  artifactKey: Guid(b2956b49a0352814590a80ea7ccf16a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Tile River Bridge 90.prefab using Guid(b2956b49a0352814590a80ea7ccf16a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b06bfe33d34a7899a00c8f627d07e39') in 0.044127 seconds
-  Import took 0.049209 seconds .
+  Time since last request: 27.436958 seconds.
+  path: Assets/Tower/Blaster.prefab
+  artifactKey: Guid(35c54f497669d1e459dfc3891dc3850e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tower/Blaster.prefab using Guid(35c54f497669d1e459dfc3891dc3850e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60434f11ce32a95bb5ff5ad67e7f3021') in 0.094638 seconds
+  Import took 0.212936 seconds .
 
